@@ -28,7 +28,7 @@ public class CalcularVCTAcitivity extends Activity implements View.OnClickListen
     }
     @Override
     public void onClick(View v) {
-        RadioGroup NivelEsporte = (RadioGroup) findViewById(R.id.radioNivelEsporte);
+        RadioGroup NivelEsporte = (RadioGroup) findViewById(R.id.NivelEsporte);
 
         // Calcular o VCT
         
