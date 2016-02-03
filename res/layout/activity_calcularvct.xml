@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Informe seu peso:"
+        android:id="@+id/pesoTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesoEditText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Informe sua altura:"
+        android:id="@+id/alturaTextView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alturaEditText" />
+    <RadioGroup
+        android:id="@+id/radioNivelEsporte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton android:id="@+id/radioNivelEsporte1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nivelEsporte1"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radioNivelEsporte2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nivelEsporte2"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton android:id="@+id/radioNivelEsporte3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nivelEsporte3"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Informe sua data de Nascimento:"
+        android:id="@+id/dataNascimentoTextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dataNascimentoEditText" 
+        android:background="@android:drawable/editbox_background"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Informe seu sexo:"
+        android:id="@+id/sexoTextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sexoEditText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular VCT"
+        android:id="@+id/calcularVCTButton" />
+</LinearLayout>
