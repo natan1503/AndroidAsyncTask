@@ -25,33 +25,39 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080014;
+        public static final int NivelEsporte=0x7f08000c;
+        public static final int NivelEsporte1=0x7f08000d;
+        public static final int NivelEsporte2=0x7f08000e;
+        public static final int NivelEsporte3=0x7f08000f;
+        public static final int action_settings=0x7f080018;
         public static final int alturaEditText=0x7f080003;
         public static final int alturaEditTextPA=0x7f080006;
         public static final int alturaTextView=0x7f080002;
         public static final int calcularIMCButton=0x7f080004;
-        public static final int calcularPAButton=0x7f08000f;
-        public static final int calcularVCTButton=0x7f080013;
-        public static final int dataNascimentoEditText=0x7f080011;
-        public static final int dataNascimentoEditTextPA=0x7f08000c;
-        public static final int dataNascimentoTextView=0x7f08000b;
+        public static final int calcularPAButton=0x7f08000b;
+        public static final int calcularVCTButton=0x7f080012;
+        public static final int dataNascimentoEditText=0x7f080010;
+        public static final int dataNascimentoEditTextPA=0x7f080008;
+        public static final int dataNascimentoTextView=0x7f080007;
+        public static final int edit_Text_Login=0x7f080014;
+        public static final int edit_Text_Senha=0x7f080016;
+        public static final int enviarLogin=0x7f080017;
         public static final int pesoEditText=0x7f080001;
         public static final int pesoEditTextPA=0x7f080005;
         public static final int pesoTextView=0x7f080000;
-        public static final int radioNivelEsporte=0x7f080010;
-        public static final int radioNivelEsporte1=0x7f080008;
-        public static final int radioNivelEsporte2=0x7f080009;
-        public static final int radioNivelEsporte3=0x7f08000a;
-        public static final int radioNivelEsportePA=0x7f080007;
-        public static final int sexoEditText=0x7f080012;
-        public static final int sexoEditTextPA=0x7f08000e;
-        public static final int sexoTextView=0x7f08000d;
+        public static final int sexoEditText=0x7f080011;
+        public static final int sexoEditTextPA=0x7f08000a;
+        public static final int sexoTextView=0x7f080009;
+        public static final int textViewLogin=0x7f080013;
+        public static final int textViewSenha=0x7f080015;
     }
     public static final class layout {
         public static final int activity_calcularimc=0x7f030000;
         public static final int activity_calcularpa=0x7f030001;
         public static final int activity_calcularvct=0x7f030002;
-        public static final int activity_main=0x7f030003;
+        public static final int activity_login=0x7f030003;
+        public static final int activity_main=0x7f030004;
+        public static final int activity_splash=0x7f030005;
     }
     public static final class menu {
         public static final int main=0x7f070000;

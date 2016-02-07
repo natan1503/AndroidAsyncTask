@@ -1,6 +1,5 @@
 package br.edu.androidasynctask.listener;
-import android.content.Context;
-import android.util.Log;
+
 import android.view.View;
 import android.widget.EditText;
 
@@ -34,7 +33,7 @@ public class CalcularPerfilAntropometricoListener implements View.OnClickListene
             //Sexo do Entrevistado
             
             EditText sexoEditText = (EditText) v.findViewById(R.id.sexoEditText);
-            String sexo = pesoEditText.getText().toString();
+            String sexo = sexoEditText.getText().toString();
             geral.put("sexo", sexo);
 
             //Data de Nascimento

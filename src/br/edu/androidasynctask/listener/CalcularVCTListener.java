@@ -1,11 +1,9 @@
 package br.edu.androidasynctask.listener;
 
 
-import android.content.Context;
-import android.os.Bundle;
+
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 
@@ -19,7 +17,7 @@ public class CalcularVCTListener implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
-        RadioGroup radioNivelEsporte = (RadioGroup) v.findViewById(R.id.radioNivelEsporte);
+        RadioGroup radioNivelEsporte = (RadioGroup) v.findViewById(R.id.NivelEsporte);
 
         // Calcular o VCT
         
@@ -50,7 +48,7 @@ public class CalcularVCTListener implements View.OnClickListener {
 
             //Sexo do Entrevistado
             EditText sexoEditText = (EditText) v.findViewById(R.id.sexoEditText);
-            String sexo = pesoEditText.getText().toString();
+            String sexo = sexoEditText.getText().toString();
             geral.put("sexo", sexo);
 
             //Data de Nascimento

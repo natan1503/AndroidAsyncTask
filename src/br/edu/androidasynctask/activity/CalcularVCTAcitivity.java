@@ -59,7 +59,7 @@ public class CalcularVCTAcitivity extends Activity implements View.OnClickListen
 
             //Sexo do Entrevistado
             EditText sexoEditText = (EditText) v.findViewById(R.id.sexoEditText);
-            String sexo = pesoEditText.getText().toString();
+            String sexo = sexoEditText.getText().toString();
             geral.put("sexo", sexo);
 
             //Data de Nascimento

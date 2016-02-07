@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioGroup;
+
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -48,7 +48,7 @@ public class CalcularPerfilAntropometricoActivity extends Activity implements Vi
             //Sexo do Entrevistado
             
             EditText sexoEditText = (EditText) v.findViewById(R.id.sexoEditText);
-            String sexo = pesoEditText.getText().toString();
+            String sexo = sexoEditText.getText().toString();
             geral.put("sexo", sexo);
 
             //Data de Nascimento
