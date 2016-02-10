@@ -1,6 +1,5 @@
 package br.edu.androidasynctask.listener;
 
-import android.content.Context;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;

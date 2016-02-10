@@ -28,11 +28,11 @@ public class CalcularVCTAcitivity extends Activity implements View.OnClickListen
     }
     @Override
     public void onClick(View v) {
-        RadioGroup radioNivelEsporte = (RadioGroup) findViewById(R.id.radioNivelEsporte);
+        RadioGroup NivelEsporte = (RadioGroup) findViewById(R.id.NivelEsporte);
 
         // Calcular o VCT
         
-        Log.i("NotificationWearApp", "Clique no bot„o da AsyncTask");
+        Log.i("NotificationWearApp", "Clique no bot√£o da AsyncTask");
 
         JSONObject geral = new JSONObject();
 
@@ -47,10 +47,10 @@ public class CalcularVCTAcitivity extends Activity implements View.OnClickListen
             String altura = alturaEditText.getText().toString();
             geral.put("altura", altura);
 
-            //NÌvel Esporte
-            int selectedId = radioNivelEsporte.getCheckedRadioButtonId();
-            radioNivelEsporte = (RadioGroup) findViewById(selectedId);
-            String nivelEsporte = radioNivelEsporte.toString();
+            //N√≠vel Esporte
+            int selectedId = NivelEsporte.getCheckedRadioButtonId();
+            NivelEsporte = (RadioGroup) findViewById(selectedId);
+            String nivelEsporte = NivelEsporte.toString();
 
             geral.put("nivelEsporte", nivelEsporte);
 
@@ -59,7 +59,7 @@ public class CalcularVCTAcitivity extends Activity implements View.OnClickListen
 
             //Sexo do Entrevistado
             EditText sexoEditText = (EditText) v.findViewById(R.id.sexoEditText);
-            String sexo = pesoEditText.getText().toString();
+            String sexo = sexoEditText.getText().toString();
             geral.put("sexo", sexo);
 
             //Data de Nascimento

@@ -28,24 +28,24 @@
         android:layout_height="wrap_content"
         android:id="@+id/alturaEditText" />
     <RadioGroup
-        android:id="@+id/radioNivelEsporte"
-        android:layout_width="fill_parent"
+        android:id="@+id/NivelEsporte"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <RadioButton android:id="@+id/radioNivelEsporte1"
+        <RadioButton android:id="@+id/NivelEsporte1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="nivelEsporte1"
             android:onClick="onRadioButtonClicked"/>
 
-        <RadioButton android:id="@+id/radioNivelEsporte2"
+        <RadioButton android:id="@+id/NivelEsporte2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="nivelEsporte2"
             android:onClick="onRadioButtonClicked"/>
 
-        <RadioButton android:id="@+id/radioNivelEsporte3"
+        <RadioButton android:id="@+id/NivelEsporte3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="nivelEsporte3"

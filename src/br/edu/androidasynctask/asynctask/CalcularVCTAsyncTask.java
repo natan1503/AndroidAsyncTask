@@ -9,7 +9,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
-import java.net.HttpURLConnection;
+
 
 import br.edu.androidasynctask.util.HttpService;
 import br.edu.androidasynctask.util.Response;
